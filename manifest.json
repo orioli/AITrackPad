@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "AITrackPad NU - Berengueres & Guirao",
+  "version": "1.0.1",
+  "description": "Intercepts Tab or D key to cycle through prominent buttons on the page",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AITrackPad - Smart Button Navigation"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+
