@@ -1,6 +1,7 @@
-# TabTab Go  - Smart Button Navigation Chrome Extension to reduce RSI and CTS motion
+# AITrackPad  - Button Navigation Chrome Extension to reduce RSI-Carpal Tunel Syndrome motion
 
-![tabtabgo](output.gif)
+<img src="output.gif" alt="tabtabgo" height="200px"><img src="awsd.jpg" alt="awsd" height="200px">
+
 
 Thanks to Cesar Guirao. It is a Chrome and Edge extension that intercepts the Tab key to cycle through the most prominent buttons on a webpage, with special support for Gmail's div-based buttons. 
 
