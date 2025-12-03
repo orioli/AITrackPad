@@ -1,9 +1,15 @@
-#TabTabPad: An AITrackPad  - Button Navigation Chrome Extension to reduce RSI-Carpal Tunel Syndrome motion
+# AITrackPad - A Button Navigation Chrome Extension to reduce RSI-Carpal Tunel Syndrome motion
 
 <img src="output.gif" alt="tabtabgo" height="200px"><img src="awsd.jpg" alt="awsd" height="200px">
 
+<a href="https://github.com/orioli/AITrackPad/blob/main/plugin_for_chrome_edge.zip" download>
+  <img src="https://img.shields.io/badge/⬇️%20Download%20Plugin-CHROME-red?style=for-the-badge" alt="Download Plugin">
+</a>
 
-Thanks to Cesar Guirao. It is a Chrome and Edge extension that intercepts the Tab key to cycle through the most prominent buttons on a webpage, with special support for Gmail's div-based buttons. 
+
+
+A Chrome and Edge extension that intercepts the Tab key to cycle through the most prominent buttons on a webpage, with special support for Gmail's div-based buttons. Thanks to 
+
 
 
 Please send comments or feedback to jose.berengueres (at) nu.edu.kz.
@@ -67,5 +73,10 @@ The extension:
 
 - orioli. (2025). *Modified-ISO-9241-9-: Long range Fitts Law test* [Computer software]. GitHub. https://github.com/orioli/Modified-ISO-9241-9-
           
+
+<a href="https://carsick.app/" target="_blank">
+  <img src="https://img.shields.io/badge/➡️%20Thanks%20Shinobit-green?style=for-the-badge" alt="Visit shinobit">
+</a>
+
 
 
