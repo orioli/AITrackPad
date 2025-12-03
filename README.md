@@ -1,4 +1,4 @@
-# AITrackPad  - Button Navigation Chrome Extension to reduce RSI-Carpal Tunel Syndrome motion
+#TabTabPad: An AITrackPad  - Button Navigation Chrome Extension to reduce RSI-Carpal Tunel Syndrome motion
 
 <img src="output.gif" alt="tabtabgo" height="200px"><img src="awsd.jpg" alt="awsd" height="200px">
 
