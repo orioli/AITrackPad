@@ -2,7 +2,7 @@
 ## Developed @Nazarvayev University
 ### Open Source
 
-<img src="how_to_use2.gif" alt="tabtabgo" height="200px"><img src="awsd.jpg" alt="awsd" height="200px">
+<img src="img/how_to_use2.gif" alt="tabtabgo" height="200px"><img src="img/awsd.jpg" alt="awsd" height="200px">
 
 <a href="https://github.com/orioli/AITrackPad/blob/main/plugin_for_chrome_edge.zip" download>
   <img src="https://img.shields.io/badge/⬇️%20Download%20Plugin-CHROME-red?style=for-the-badge" alt="Download Plugin">
@@ -28,7 +28,7 @@ Please send comments or feedback to jose.berengueres (at) nu.edu.kz.
 
 ## Installation
 
-<img src="how_to_install3.gif" alt="tabtabgo" height="480px">
+<img src="img/how_to_install3.gif" alt="tabtabgo" height="480px">
 
 1. Open Chrome and navigate to `chrome://extensions/`
 2. Enable "Developer mode" (toggle in top-right)
