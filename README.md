@@ -1,4 +1,6 @@
-# AITrackPad - A Button Navigation Chrome Extension to reduce RSI-Carpal Tunel Syndrome motion
+# TabTabGo (AI-TrackPad NU) - A Chrome Extension to reduce RSI-Carpal Tunel Syndrome motion
+## Developed @Nazarvayev Univeristy
+### Open Source
 
 <img src="how_to_use2.gif" alt="tabtabgo" height="200px"><img src="awsd.jpg" alt="awsd" height="200px">
 
