@@ -1,15 +1,13 @@
 # AITrackPad - A Button Navigation Chrome Extension to reduce RSI-Carpal Tunel Syndrome motion
 
-<img src="output.gif" alt="tabtabgo" height="200px"><img src="awsd.jpg" alt="awsd" height="200px">
+<img src="how_to_use2.gif" alt="tabtabgo" height="200px"><img src="awsd.jpg" alt="awsd" height="200px">
 
 <a href="https://github.com/orioli/AITrackPad/blob/main/plugin_for_chrome_edge.zip" download>
   <img src="https://img.shields.io/badge/⬇️%20Download%20Plugin-CHROME-red?style=for-the-badge" alt="Download Plugin">
 </a>
 
 
-
 A Chrome and Edge extension that intercepts the Tab key to cycle through the most prominent buttons on a webpage, with special support for Gmail's div-based buttons. Thanks to 
-
 
 
 Please send comments or feedback to jose.berengueres (at) nu.edu.kz.
@@ -27,6 +25,8 @@ Please send comments or feedback to jose.berengueres (at) nu.edu.kz.
 - **Dynamic Updates**: Automatically re-detects buttons when the page content changes
 
 ## Installation
+
+<img src="how_to_install3.gif" alt="tabtabgo" height="480px">
 
 1. Open Chrome and navigate to `chrome://extensions/`
 2. Enable "Developer mode" (toggle in top-right)
