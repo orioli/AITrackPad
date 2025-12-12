@@ -1020,7 +1020,7 @@
       <div class="smarttab-header" style="background: ${selectedColor}">
         <div class="smarttab-title-section">
           <span class="smarttab-title">TabTab Go</span>
-          <span class="smarttab-copyright">by cesar guirao & jose berengueres</span>
+          <span class="smarttab-copyright">How to cite: Kalinina, D., Guirao, C., & Berengueres, J. (2025). TabTab Go (v1.0.3) [Computer software]. Nazarbayev University. https://github.com/orioli/tabtabgo</span>
         </div>
         <div class="smarttab-header-actions">
           <button class="smarttab-color-picker" id="smarttab-color-picker-btn" title="Change color">🎨</button>
@@ -1215,14 +1215,34 @@
     const isS = event.key === 's' || event.key === 'S' || event.key === 'Ы' || event.key === 'ы'; // Cyrillic Ы
     
     if ((isTab || isD || isS) && !event.ctrlKey && !event.altKey && !event.metaKey) {
-      // Only intercept if we're not in an input field
+      // Only intercept if we're not in an input field or text area
       const activeElement = document.activeElement;
-      const isInputField = activeElement && (
-        activeElement.tagName === 'INPUT' ||
-        activeElement.tagName === 'TEXTAREA' ||
-        activeElement.isContentEditable
-      );
+      
+      // Check if we're in a text input field
+      let isInputField = false;
+      if (activeElement) {
+        const tagName = activeElement.tagName;
+        const type = activeElement.type ? activeElement.type.toLowerCase() : '';
+        
+        // Check for textarea
+        if (tagName === 'TEXTAREA') {
+          isInputField = true;
+        }
+        // Check for input elements that accept text
+        else if (tagName === 'INPUT') {
+          // Don't intercept for text inputs, but allow for buttons, checkboxes, etc.
+          const textInputTypes = ['text', 'email', 'password', 'search', 'tel', 'url', 'number', 'date', 'datetime-local', 'month', 'time', 'week'];
+          if (textInputTypes.includes(type) || !type || type === '') {
+            isInputField = true;
+          }
+        }
+        // Check for contentEditable elements (rich text editors)
+        else if (activeElement.isContentEditable) {
+          isInputField = true;
+        }
+      }
 
+      // Only intercept if we're NOT in an input field
       if (!isInputField) {
         event.preventDefault();
         event.stopPropagation();
